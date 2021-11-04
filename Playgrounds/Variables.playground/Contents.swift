@@ -77,3 +77,4 @@ myVariable="Test" //initializate etmek  //Değer atamak
 let myVariable2:String = "TestConstantLetVariable"
 let myVariable3:String = myVariable2.uppercased()
 print(myVariable3)
+ 
