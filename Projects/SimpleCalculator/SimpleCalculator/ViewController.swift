@@ -35,7 +35,6 @@ class ViewController: UIViewController {
                 resultLabel.text = String(result)
             }
         }
-        
     }
     
     @IBAction func minusClicked(_ sender: Any) {
