@@ -97,7 +97,7 @@ class DetailsVC: UIViewController,UIImagePickerControllerDelegate , UINavigation
     //Bu metod bize seçilen fotoğrafın Info adında dictionary döner (editlenmiş foto, original foto vb )
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         imageView.image = info[.originalImage] as? UIImage
-        saveButton.isEnabled = true 
+        saveButton.isEnabled = true
         self.dismiss(animated: true, completion: nil)
         
     }
